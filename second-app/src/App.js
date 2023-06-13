@@ -1,25 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
+// JSX=JS+HTML
+// if function returns HTML, it becomes user defined tag
+// User Defined tag
+// - First letter uppercase
+// predefined tag convention
+// - lower case
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+ return <h1>Hello World</h1>
 }
 
 export default App;
